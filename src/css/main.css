@@ -7,6 +7,10 @@
 }
 .nav a{
     color: #999;
+    text-decoration: none;
+}
+.nav a:hover{
+    color: red;
 }
 .navl{
     display: inline-block;
@@ -32,7 +36,8 @@
 }
 .navr li{
     display: inline-block;
-    padding: 0 5px;
+    padding: 0 5px; 
+    color: #999;
 }
 li.spacer{
     color: #ccc;
@@ -47,8 +52,8 @@ li.spacer{
     display: none;
     position: absolute;
     left: -1px;
-    width: 322px;
-    height: 333px;
+    width: 280px;
+    height: 210px;
     border: solid 1px #ccc;
     border-top: 0px;
     box-shadow: 1px 2px 1px rgba(0,0,0,.1);
@@ -56,7 +61,20 @@ li.spacer{
 
 .item{
     display: inline-block;
+    width: 40px;
+    margin: 0 6px;
+    text-align: center;
 }
 row-item{
     display: block;
+    height: 30px;
+}
+.item:hover{
+    background-color:rgba(204, 204, 204, 0.5);
+    cursor:pointer;
+    color: red;
+}
+.item-active{
+    background-color: red;
+    color: white;
 }
