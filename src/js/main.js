@@ -12,4 +12,10 @@ $(function(){
         $(".navl-dropdown").css("display","none");
 
     });
+    $(".buycar").bind("mouseover", function (e) {
+        $(".buycar-dropdown,.buycar-empty").css("display","block");  
+    });
+    $(".buycar").bind("mouseout", function (e) {
+        $(".buycar-dropdown,.buycar-empty").css("display","none");          
+    });
 })
