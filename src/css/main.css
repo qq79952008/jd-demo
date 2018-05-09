@@ -100,7 +100,7 @@ row-item{
     position: relative;
 }
 .search{
-    height: 60px;
+    height: 143px;
     position: relative;
 }
 .search-in{
@@ -169,7 +169,7 @@ row-item{
     width: 188px;;
     background-color: white;
     border: none;
-    z-index: 100px;
+    z-index: 100;
     top: 32px;
 }
 .buycar-dropdown{
@@ -185,5 +185,80 @@ row-item{
     color: #999;
     left: -111px;
     top: 33px;
+    z-index: 10;
 }
-
+.navitems{
+    position: absolute;
+    left: 260px;
+    top: 100px;
+    width: 700px;
+    height: 40px;
+    padding: 10px 0px;
+}
+.navitems a{
+    color: black;
+    text-decoration: none;
+}
+.navitems ul{
+    display: inline-block;
+}
+.navitems li{
+    display: inline-block;
+    list-style: none;
+    font-size: 16px;
+    margin: 0 8px;
+    line-height: 10px;
+}
+.navitems-ul1{
+    border-right: solid 1px #ccc; 
+}
+.navitems-ul3{
+    border-left: solid 1px #ccc;
+}
+.con2-col1{
+    width: 191px;
+    height: 480px;
+    background-color: white;
+    box-shadow: 1px 0 5px 0 #888888;
+    float: left;
+}
+.con2-col1 ul{
+    padding: 10px 0;
+}
+.con2-col1 li{
+    list-style: none;
+    padding-left: 14px;
+    height: 27px;
+    line-height: 27px;
+}
+.con2-col1 a{
+    color: black;
+    text-decoration: none;
+}
+.con2-col1 a:hover{
+    color: red;
+}
+.con2-col1 li:hover{
+    background-color: #ccc;
+}
+.con2-col2{
+    float: left;
+    margin: 10px 10px 0 10px;
+    padding: 0px;
+}
+.con2-col2 .item{
+    width: 590px;
+    height: 470px;
+    border: none;
+    margin: 0px;
+}
+.con2-col3{
+    float: left;
+    margin: 0 10px;
+    width: 190px;
+    height: 480px;
+}
+.con2-col3 li{
+    list-style: none;
+    margin: 10px 0;
+}

@@ -18,4 +18,5 @@ $(function(){
     $(".buycar").bind("mouseout", function (e) {
         $(".buycar-dropdown,.buycar-empty").css("display","none");          
     });
+
 })
